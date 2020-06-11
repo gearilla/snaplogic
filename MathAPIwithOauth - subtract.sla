@@ -1,0 +1,96 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "ConnectFasterInc"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "MathAPIwithOauth - subtract"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                "sym_iv": "SB3H0ybcCHZ6iPTNGsvSDw==",
+                "sym_key": "X7sWev0HDRa6D+hcfYIT9KJjQVdMqmMduj5d1g264cYXJm67zqTsmna6E9CHBhaJMVEEChYEdal5wrOwomQahuTG8QNMXlEPkKMOSpNRv4ZuSBw4HqHkfu8dI3IFCWExHOx9ZWD7zx8a59RPwlljtJl5qykns4zFP3sTupOxU+qhPr0boqlHb/2qwFzxR86PxK1xOv1QGp5zW1JMiiII8DZ5yEn76xv89ZSPtcXXj36SPcBPp/KCAJsL0MvFXt/Fp5+KFCk00JRmL57oozH+GJmoFXk/F7cnYJHgt+a05Ru2NR9wuW8XJFnW8Vd9lXBhp1p3wYN8+4p3G/gATe1Mng==",
+                "value": "FhyNhIVgikZJZp9rLDcZwSMh8diDUuaKdMe93X6NCsYVOWQ+UOdEPr7Rl3Cz6C8O"
+            },
+            "access_token_expiration": {
+                "value": "1587676105"
+            },
+            "auth_endpoint": {
+                "value": "https://elastic.snaplogic.com/sl/apim/authorize"
+            },
+            "auth_endpoint_config": {
+                "value": [
+                    {
+                        "authParam": {
+                            "value": "proxy_url"
+                        },
+                        "authParamValue": {
+                            "value": "https://prod-connectfasterinc-apim.snaplogic.io/MathAPIwithOauth/ConnectFasterInc/xyzzy/APIMDemo/Subtract-Task"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "response_type"
+                        },
+                        "authParamValue": {
+                            "value": "code"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "scope"
+                        },
+                        "authParamValue": {
+                            "value": "/ConnectFasterInc/xyzzy/APIMDemo/Subtract-Task"
+                        }
+                    }
+                ]
+            },
+            "authorize": {
+                "value": null
+            },
+            "autoRefreshToken": {
+                "value": false
+            },
+            "client_id": {
+                "value": "nzYmYnvecNMdSNGu87yB4CuYvc4CzDpH"
+            },
+            "client_secret": {
+                "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                "sym_iv": "OtyIHQA/AHZF8UVKPsdi4g==",
+                "sym_key": "B+Z5my8FsM4hf+ly/RoQd2hh8fxEn5gAS0I/6+qyzFdCzZmbaePvpKQo/rU1FnEH7d47nCldRkFf+nLgBgscZcg0mPg3R2ymfQ3Ry44spbrGo4oatshoDjD2Kz6G10VQwj5l6z6D5V239tiMm4o+HzsK8YWbwgUIAcxYu5mp6/B0Okkg2jWH6MT8+E4zuZcK2fmqc9pGh7NfSoNAGObb1ouOSmAMJN96loJJ8ET+mcw7ebN3XJlM4Ywk0zxC1Erz4vg/Wi4MeJTUrOxEQ2IL2mV3wOOkOFgU9qasmfjorHR+0D4lRadPgQma0lSgpD3jTaRZXd8E+0gRInPKjM/lFg==",
+                "value": "az/DrPnVnMMp7hJatXCeA4n8UGDlrT05B5cNwMw8BZ8vSEl5IGsSXWQSnshgtGOj"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "refresh": {
+                "value": null
+            },
+            "refresh_token": {
+                "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                "sym_iv": "IusjvKwjPv3RLjiIN9sgUA==",
+                "sym_key": "DbCPunBOQGvMRS81Uq7any7a/f4pwmkPsnt6nHdA31VHhQsRRYWyM8glKrhAIF30mChs4w9QQAMiiP+vXbURqWAJ8kVzoeJTT6zKfpPXHwFjmrFpqdyZfUMWImagkdNrmvD/XhkoTXKFdsBJyuOWtv75XQkspVutf5ZpvXrslcVHvSArcGEGKSTEbblNx9hPBTuwsgdigai6IJ8epovG/qEIWgSwFnAz63rh2rz3EXbSeVWfNQFg08SpX9DJsTnoXqptirgfftep+cYPWM8ZWUEwkg4L3halxWKrSbAeoKO+uXtTzUb5qCGiQY5DuPL0WzLQF+3PnHaaBDLsyHxpSA==",
+                "value": "akEuTxNtely6eVPI3ACxIdGZyMDmcnBI8+rZETqi4ioTugSKNiKvsz6GQ3kilcbD"
+            },
+            "token_endpoint": {
+                "value": "https://prod-connectfasterinc-apim.snaplogic.io/MathAPIwithOauth/ConnectFasterInc/xyzzy/APIMDemo/Subtract-Task/oauth2/token"
+            },
+            "token_endpoint_config": {
+                "value": []
+            }
+        },
+        "view_serial": 100
+    }
+}

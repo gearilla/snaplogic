@@ -1,0 +1,112 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-snowflakedatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "ConnectFasterInc"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "MS SnowflakeAcct"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 2
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 60
+                    },
+                    "maxPoolSize": {
+                        "value": 15
+                    },
+                    "minPoolSize": {
+                        "value": 3
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": [
+                            {
+                                "jdbcDriver": {
+                                    "value": "shared/snowflake-jdbc-3.6.9.jar"
+                                }
+                            }
+                        ]
+                    },
+                    "accessKeyId": {
+                        "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                        "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                        "sym_iv": "tdFu6Z2RjX3G34L3G/a8Gg==",
+                        "sym_key": "H7GIBMKfDHPieerxQpjnOYiWs6seu6tNqkgD4b4Q4aoCRdUZ337H7opXnoc0ckHY25aX8Ss4P793tFrh25ZNNpzFB/WwRMON55fJ8MBw6zWlm/mWaDxj1hNGFMMfaxlbZQgzV4GbmN32+rU9q5hiaooGbUii9MlfLlR7T+0ffrlP6cVXpCKX+O9jadgTnQJfOXKikoserlkWPAgCShygxwur1xOXgQUuF81ZZ6z8KjoUD/kXJdsJpmQR+H9u4JGw86fBamxivO+w7UHhZdRz5bnn0w6Z3+cGZ2362Z7ATFL1T7hRdz4bzGpw2ibO2G5Ie35z6rIO6IVSz3+OOQF0Xw==",
+                        "value": "/BDUDAC4zOtiV5D2yHy1nw=="
+                    },
+                    "bucket": {
+                        "value": null
+                    },
+                    "databaseName": {
+                        "value": "DEMO_DB"
+                    },
+                    "hostname": {
+                        "value": "snaplogic.snowflakecomputing.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.snowflake.client.jdbc.SnowflakeDriver"
+                    },
+                    "password": {
+                        "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                        "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                        "sym_iv": "mt3A/DwcMUvqgBq0pQdTRw==",
+                        "sym_key": "BzzTMalPKC05xIYufqwD53pm9vGBhLIfTTIbQ55hIVX0b37A3D5yV9Mvaolle1seO3vELyKsOrn4flSlAPVBSUeMoo2e2xbUAyor+zjy4hP7nErrb/9rcqwHQ7f0Y0rSNseUrM5waMotHB0qQae46UzRMbjtFBf2B6lRYPsw3IJT4NbkjseksOVsBJoAtCr+8Vz5HV3Zujh8iIthSZVrMF5OOizjRmqzljauphQgT9EtdQ5l2qnwMD695/hcwz9tOqPJ9RBWumCOZOn9eTacSc1BizXSz241mEgJgZyTPmi4Q8MSeAPNJDVtSFDMfGCFjeWFOri+6cpXE4eP4ZI+4Q==",
+                        "value": "qrZX11jNTY6KVp4oBzWomQ=="
+                    },
+                    "portNumber": {
+                        "value": 443
+                    },
+                    "s3Folder": {
+                        "value": null
+                    },
+                    "secretKey": {
+                        "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                        "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                        "sym_iv": "XTdiKcFg1LHyWN2G9vsngg==",
+                        "sym_key": "c+JoUTUNK3PZVzosBGLEdTfBziM1GHvhfn4opcGGe+sMMKHVuF4u4kbPPWjzZya+nGZrn6aaShmMcNyqQrSq9xPj+o9SKm/J7GrOsi36amBhVXIMcN83+RgIY/WsS/BgFT7UJiBLhCnp91U/IjRdWjkBV5qrcpJ5PQk1hwsm7ki4Zklk8bgzp+blu/sbhH3mdvhODVqef9Skv29YxP4qmivy6hAp/92TmVird+U3xYkEyIRWPqvzl88mKBHhiMX9VbO1gEjYYutsWIOV447VKgAVKGQNAXUmMmR+IUnfkgZ2JG0M8hXdCouQAebkZs2VbZuRtabO+KGjzRihmvkvAw==",
+                        "value": "wR+EMG9lxJA2EqYrAY83+Q=="
+                    },
+                    "username": {
+                        "value": "MSAGER"
+                    },
+                    "warehouse": {
+                        "value": "EXTREME_PERF_XL_01_WH"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
