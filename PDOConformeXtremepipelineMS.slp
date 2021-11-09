@@ -206,7 +206,19 @@
                 "account": {
                     "account_ref": {
                         "expression": false,
-                        "value": {}
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "MS Aws S3 Acct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-sparksql2x-awsaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
                     }
                 },
                 "error": {
@@ -249,7 +261,19 @@
                 "account": {
                     "account_ref": {
                         "expression": false,
-                        "value": {}
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "MS Aws S3 Acct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-sparksql2x-awsaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
                     }
                 },
                 "error": {

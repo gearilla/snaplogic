@@ -1,0 +1,623 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link114": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link115": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "msager@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {},
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            },
+            "suspendable": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-elt-eltinsertselect",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "msSnowflakeELTAcct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-elt-eltdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ELT Insert-Select"
+                    },
+                    "notes": {
+                        "value": ""
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "databaseName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "getPreviewData": {
+                        "value": false
+                    },
+                    "hashDistributionColumn": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "insertColumnValuesProp": {
+                        "value": []
+                    },
+                    "insertOverwrite": {
+                        "value": true
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": "\"MSAGER\""
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "\"MSELTTARGET\""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-elt-eltselect",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "msSnowflakeELTAcct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-elt-eltdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ELT Select"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "databaseName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "enableSqlQuery": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "getPreviewData": {
+                        "value": true
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": "\"MSAGER\""
+                    },
+                    "sqlQuery": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "\"MSAGER\".\"MSELTINGEST\""
+                    },
+                    "viewTableMapping": {
+                        "value": []
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-elt-elttransform",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "msRedshift"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-elt-eltdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ELT Transform"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execSqlInPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "getPreviewData": {
+                        "value": true
+                    },
+                    "mappingTable": {
+                        "value": [
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "UPPER(\"country\") "
+                                },
+                                "targetSqlExpression": {
+                                    "value": "ucountry"
+                                }
+                            },
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "LOWER(REGEXP_SUBSTR(\"browser\",'(Safari|Chrome|Edge)',1))"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "browser"
+                                }
+                            }
+                        ]
+                    },
+                    "passThrough": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-elt-eltsample",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "msSnowflakeELTAcct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-elt-eltdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ELT Sample"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "getPreviewData": {
+                        "value": true
+                    },
+                    "numberOfRecords": {
+                        "expression": false,
+                        "value": "2"
+                    },
+                    "percentageOfRecords": {
+                        "expression": false,
+                        "value": "1"
+                    },
+                    "samplingType": {
+                        "value": "Number of Records"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-elt-elttransform",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "msSnowflakeELTAcct"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-elt-eltdatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ELT Transform"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execSqlInPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "getPreviewData": {
+                        "value": true
+                    },
+                    "mappingTable": {
+                        "value": [
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "LOWER(\"city\")"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "lcity"
+                                }
+                            },
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "UPPER(\"country\")"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "ucountry"
+                                }
+                            },
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "LOWER(\"metro\")"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "lmetro"
+                                }
+                            },
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "LOWER(REGEXP_SUBSTR(\"browser\",'(Safari|Chrome|Edge)',1))"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "lbrowser"
+                                }
+                            },
+                            {
+                                "sourceSqlExpression": {
+                                    "expression": false,
+                                    "value": "convert_timezone('America/New_York', to_timestamp(\"unixtimestamp\"))"
+                                },
+                                "targetSqlExpression": {
+                                    "value": "timeInEST"
+                                }
+                            }
+                        ]
+                    },
+                    "passThrough": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}
